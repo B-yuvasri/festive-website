@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+h1 {
+	color: #333;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+img {
+	max-width: 300px;
+	margin: 10px;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
