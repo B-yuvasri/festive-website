@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Festival Gallery</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Gallery</h1>
-	<img src="images/festival-photo1.jpeg" alt="Festival Photo 1">
-	<img src="images/festival-photo2.jpeg" alt="Festival Photo 2">
-	<a href="index.html">Back to Home</a>
+	<header class="page-header">
+		<h1>Festival Gallery</h1>
+		<nav>
+			<a href="index.html">Home</a> | <a href="schedule.html">Schedule</a>
+		</nav>
+	</header>
+	<main class="gallery-section">
+		<div class="container">
+			<div class="gallery-grid">
+				<div class="gallery-item">
+					<img src="images/festival-photo1.jpeg" alt="Festival Moment 1">
+					<div class="overlay">Innovation Showcase</div>
+				</div>
+				<div class="gallery-item">
+					<img src="images/festival-photo2.jpeg" alt="Festival Moment 2">
+					<div class="overlay">Dr. Maya Speaking</div>
+				</div>
+				<div class="gallery-item">
+					<img src="images/festival-photo3.jpeg" alt="Festival Moment 3">
+					<div class="overlay">Workshop Session</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2025 Festival of Innovations</p>
+	</footer>
 </body>
-
 </html>
