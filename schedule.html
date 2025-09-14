@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Festival Schedule</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Event Schedule</h1>
-	<table>
-		<tr><th>Time</th><th>Activity</th><th>Location</th></tr>
-		<tr><td>10 AM</td><td>Inauguration</td><td>Main Stage</td></tr>
-		<tr><td>11 AM</td><td>Keynote Speaker</td><td>Auditorium</td></tr>
-		<tr><td>3 PM</td><td>Cultural Show</td><td>Open Area</td></tr>
-	</table>
-	<a href="index.html">Back to Home</a>
+	<header class="page-header">
+		<h1>Event Schedule</h1>
+		<nav>
+			<a href="index.html">Home</a> | <a href="gallery.html">Gallery</a>
+		</nav>
+	</header>
+	<main class="schedule-section">
+		<div class="container">
+			<table class="schedule-table">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Event</th>
+						<th>Speaker</th>
+						<th>Venue</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="event-row">
+						<td>10:00 AM</td>
+						<td>Inauguration</td>
+						<td>-</td>
+						<td>Main Hall</td>
+					</tr>
+					<tr class="event-row">
+						<td>11:00 AM</td>
+						<td>Keynote: Future of AI</td>
+						<td>Dr. Maya</td>
+						<td>Auditorium</td>
+					</tr>
+					<tr class="event-row">
+						<td>12:30 PM</td>
+						<td>Panel Discussion: Tech Innovations</td>
+						<td>Rohan, Dr. Maya</td>
+						<td>Hall A</td>
+					</tr>
+					<tr class="event-row">
+						<td>2:00 PM</td>
+						<td>Lunch Break</td>
+						<td>-</td>
+						<td>Cafeteria</td>
+					</tr>
+					<tr class="event-row">
+						<td>3:00 PM</td>
+						<td>Workshop: EdTech Solutions</td>
+						<td>Rohan</td>
+						<td>Room 102</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2025 Festival of Innovations</p>
+	</footer>
 </body>
 </html>
