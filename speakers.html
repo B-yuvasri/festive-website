@@ -3,50 +3,60 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Festival Speakers</title>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+	<title>Festival Schedule</title>
 	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 	<header class="page-header">
-		<h1 class="page-title">Our Speakers</h1>
+		<h1 class="page-title">Event Schedule</h1>
 		<nav>
-			<a href="index.html">Home</a> | <a href="schedule.html">Schedule</a>
+			<a href="index.html">Home</a> | <a href="gallery.html">Gallery</a>
 		</nav>
 	</header>
-	<main class="speakers-section">
+	<main class="schedule-section">
 		<div class="container">
-			<div class="speaker-grid">
-				<div class="speaker-card">
-					<div class="speaker-image">
-						<img src="images/dr-maya.jpeg" alt="Dr. Maya">
-					</div>
-					<div class="speaker-info">
-						<h3 class="speaker-name">Dr. Maya</h3>
-						<p class="speaker-title">AI & Healthcare Researcher</p>
-						<p>Dr. Maya leads groundbreaking research at the intersection of AI & personalized medicine.</p>
-						<div class="social-links">
-							<a href="#"><i class="fa-brands fa-twitter"></i></a>
-							<a href="#"><i class="fa-brands fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="speaker-card">
-					<div class="speaker-image">
-						<img src="images/rohan.jpeg" alt="Rohan">
-					</div>
-					<div class="speaker-info">
-						<h3 class="speaker-name">Rohan</h3>
-						<p class="speaker-title">EdTech Entrepreneur</p>
-						<p>Rohan is transforming learning experiences with innovative edtech solutions.</p>
-						<div class="social-links">
-							<a href="#"><i class="fa-brands fa-twitter"></i></a>
-							<a href="#"><i class="fa-brands fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
+			<table class="schedule-table">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Event</th>
+						<th>Speaker</th>
+						<th>Venue</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="event-row">
+						<td>10:00 AM</td>
+						<td>Inauguration</td>
+						<td>Dr. Vikram, Chief Guest</td>
+						<td><span class="venue-tag bg-purple">Main Hall</span></td>
+					</tr>
+					<tr class="event-row">
+						<td>11:00 AM</td>
+						<td>Keynote: Future of AI</td>
+						<td>Dr. Maya</td>
+						<td><span class="venue-tag bg-blue">Auditorium</span></td>
+					</tr>
+					<tr class="event-row">
+						<td>12:30 PM</td>
+						<td>Panel Discussion: Tech Innovations</td>
+						<td>Rohan, Dr. Maya</td>
+						<td><span class="venue-tag bg-green">Hall A</span></td>
+					</tr>
+					<tr class="event-row">
+						<td>2:00 PM</td>
+						<td>Lunch Break</td>
+						<td>-</td>
+						<td><span class="venue-tag bg-orange">Cafeteria</span></td>
+					</tr>
+					<tr class="event-row">
+						<td>3:00 PM</td>
+						<td>Workshop: EdTech Solutions</td>
+						<td>Rohan</td>
+						<td><span class="venue-tag bg-purple">Room 102</span></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</main>
 	<footer class="footer">
